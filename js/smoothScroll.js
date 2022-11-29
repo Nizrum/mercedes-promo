@@ -14,5 +14,3 @@ linksArray.forEach((link) => {
         });
     });
 });
-
-console.log(seamless);
