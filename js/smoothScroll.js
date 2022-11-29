@@ -8,9 +8,11 @@ linksArray.forEach((link) => {
 
         const ID = event.target.getAttribute("href").slice(1);
 
-        document.getElementById(ID).scrollIntoView({
+        seamless.scrollIntoView(document.getElementById(ID), {
             behavior: "smooth",
             block: "start",
         });
     });
 });
+
+console.log(seamless);
